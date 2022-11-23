@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Modèle Programmation Javascript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id='wrapper'>
+        <div id='joueur'>
+            <h1>Vous</h1>
+            <label id='scoreJ'>0 </label>
+            <div id='jeuJoueur'>
+                <button id='pierreJ' class='btJoueur'>
+                    <img src="/devoir2/images/pierre.png">
+                </button>
+                <button id='feuilleJ' class='btJoueur'>
+                    <img src="/devoir2/images/feuille.png">
+                </button>
+                <button id='ciseauxJ' class='btJoueur'>
+                    <img src="/devoir2/images/ciseaux.png">
+                </button>
+            </div>
+        </div>
+        <div id='ordi'>
+            <h1>Ordinateur</h1>
+            <label id='scoreO'>0</label>
+            <div id='jeuOrdi'>
+                <button id='pierreO'>
+                    <img src="/devoir2/images/pierre.png">
+                </button>
+                <button id='feuilleO'>
+                    <img src="/devoir2/images/feuille.png">
+                </button>
+                <button id='ciseauxO'>
+                    <img src="/devoir2/images/ciseaux.png">
+                </button>
+            </div>
+        </div>
+    </div>
+    <h3 id='tour'>A vous de jouer !</h3>
+    <input type='button' id='recommencer' value='Commencer'>
+    <input type='button' id='nextRound' value='Tour suivant'>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/script.js"> </script>
+</body>
+
+</html>

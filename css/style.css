@@ -1,0 +1,35 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 10fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#joueur {
+    grid-column: 2;
+    text-align: center;
+}
+
+#ordi {
+    grid-column: 3;
+    text-align: center;
+
+}
+
+label {
+    font-size: 50px;
+}
+
+
+.btJoueur:hover {
+    background-color: orange;
+}
+
+.btJoueur:focus {
+    background-color: orange;
+}
+
+
+.btJoueur:not:hover {
+    background-color: transparent;
+}
